@@ -59,7 +59,7 @@ module.exports = {
 							resObj.images.push($($images[i]).attr("src"));
 						}
 					}
-					res.send(resObj);
+					res.send(resObj); 
 				}
 			} catch (error) {
 				return res.sendStatus(500);
